@@ -1,0 +1,28 @@
+Creation time: Mon Mar 03 11:07:08
+
+sb_get_handle_size(): 32
+sb_enum_get_list_size() = 12 bytes
+sb_enum()
+ - sb_enum_clear_list()
+ - output devices (3):
+    - {00000000-0000-0000-0000-000000000000}, 'Primarni ovladac zvuku'
+    - {8259D935-F79C-4A9F-9D81-6D13D2669FAF}, 'Sluchatka (Zvukove zarizeni High Definition Audio)'
+    - {38ED88D1-5BAE-422E-99FC-D3CC7BE638C4}, 'Reproduktory (Zvukove zarizeni High Definition Audio)'
+ - sb_enum_clear_list()
+ - capture devices (2):
+    - {00000000-0000-0000-0000-000000000000}, 'Primarni ovladac pro digitalizaci zvuku'
+    - {8259D935-F79C-4A9F-9D81-6D13D2669FAF}, 'Mikrofon (Zvukove zarizeni High Definition Audio)'
+sb_get_guid_size() = 16 bytes
+sb_enum_get_device(id = 0): 'Primarni ovladac pro digitalizaci zvuku'
+sb_enum_get_device(id = 1): 'Mikrofon (Zvukove zarizeni High Definition Audio)'
+sb_get_guid_size() = 16 bytes
+sb_enum_get_device(id = 0): 'Primarni ovladac zvuku'
+sb_enum_get_device(id = 1): 'Sluchatka (Zvukove zarizeni High Definition Audio)'
+sb_enum_get_device(id = 2): 'Reproduktory (Zvukove zarizeni High Definition Audio)'
+sb_enum_clear_list()
+sb_enum_clear_list()
+sb_close()
+ - output device cleanup
+ - capture thread cleanup
+ - capture device cleanup
+ - capture thread object cleanup
