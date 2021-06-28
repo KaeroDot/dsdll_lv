@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="13008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -42,6 +42,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{35B9588A-1838-474B-95BD-5FD95DF331FF}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{19F42354-189D-458F-976E-FEEA122435E1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9E32EF59-9529-4EA1-8C2B-281A8C2AAEEC}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DSDLL demo 1</Property>
@@ -86,6 +87,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{FD3BB557-4544-4EF0-8CB9-4C141E8738D1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A4DE8FDB-135A-4BF6-86C7-4CBE9B2CA6ED}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F4AFBCB5-5461-401B-BDB7-60194148E276}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DSDLL demo 2</Property>
@@ -133,6 +135,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{32C46719-1415-4C07-9763-E70818AF2085}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6C456930-A54F-4F72-A5F3-941A2FB04EC6}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1E1F8BF2-E54B-4FC7-B0E7-3CDBF50CF2CA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DSDLL demo 3</Property>
