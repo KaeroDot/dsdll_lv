@@ -17,57 +17,57 @@ Uses dsdll.dll library as a wrapper for nasty DirectSound APIs which are almost 
 		<Item Name="dsdll_check_instance.vi" Type="VI" URL="../dsdll_check_instance.vi"/>
 		<Item Name="dsdll_generate_error.vi" Type="VI" URL="../dsdll_generate_error.vi"/>
 		<Item Name="dsdll_enumerate_devices_querry_list.vi" Type="VI" URL="../dsdll_enumerate_devices_querry_list.vi"/>
-		<Item Name="dsdll_output_write_byte_array.vi" Type="VI" URL="../output/dsdll_output_write_byte_array.vi"/>
-		<Item Name="dsdll_output_write_int16.vi" Type="VI" URL="../output/dsdll_output_write_int16.vi"/>
-		<Item Name="dsdll_output_write_float32.vi" Type="VI" URL="../output/dsdll_output_write_float32.vi"/>
-		<Item Name="dsdll_output_write_auto_float32.vi" Type="VI" URL="../output/dsdll_output_write_auto_float32.vi"/>
-		<Item Name="dsdll_capture_wave_byte_array.vi" Type="VI" URL="../capture/dsdll_capture_wave_byte_array.vi"/>
-		<Item Name="dsdll_capture_wave_variant.vi" Type="VI" URL="../capture/dsdll_capture_wave_variant.vi"/>
-		<Item Name="dsdll_capture_wave_int16.vi" Type="VI" URL="../capture/dsdll_capture_wave_int16.vi"/>
-		<Item Name="dsdll_capture_wave_float32.vi" Type="VI" URL="../capture/dsdll_capture_wave_float32.vi"/>
-		<Item Name="dsdll_capture_wave_auto_float32.vi" Type="VI" URL="../capture/dsdll_capture_wave_auto_float32.vi"/>
+		<Item Name="dsdll_output_write_byte_array.vi" Type="VI" URL="../dsdll_output_write_byte_array.vi"/>
+		<Item Name="dsdll_output_write_int16.vi" Type="VI" URL="../dsdll_output_write_int16.vi"/>
+		<Item Name="dsdll_output_write_float32.vi" Type="VI" URL="../dsdll_output_write_float32.vi"/>
+		<Item Name="dsdll_output_write_auto_float32.vi" Type="VI" URL="../dsdll_output_write_auto_float32.vi"/>
+		<Item Name="dsdll_capture_wave_byte_array.vi" Type="VI" URL="../dsdll_capture_wave_byte_array.vi"/>
+		<Item Name="dsdll_capture_wave_variant.vi" Type="VI" URL="../dsdll_capture_wave_variant.vi"/>
+		<Item Name="dsdll_capture_wave_int16.vi" Type="VI" URL="../dsdll_capture_wave_int16.vi"/>
+		<Item Name="dsdll_capture_wave_float32.vi" Type="VI" URL="../dsdll_capture_wave_float32.vi"/>
+		<Item Name="dsdll_capture_wave_auto_float32.vi" Type="VI" URL="../dsdll_capture_wave_auto_float32.vi"/>
 	</Item>
 	<Item Name="capture" Type="Folder">
-		<Item Name="dsdll_capture_get_size.vi" Type="VI" URL="../capture/dsdll_capture_get_size.vi"/>
-		<Item Name="dsdll_capture_wave.vi" Type="VI" URL="../capture/dsdll_capture_wave.vi"/>
-		<Item Name="dsdll_capture_wave_abort.vi" Type="VI" URL="../capture/dsdll_capture_wave_abort.vi"/>
-		<Item Name="dsdll_capture_wave_get_status.vi" Type="VI" URL="../capture/dsdll_capture_wave_get_status.vi"/>
+		<Item Name="dsdll_capture_get_size.vi" Type="VI" URL="../dsdll_capture_get_size.vi"/>
+		<Item Name="dsdll_capture_wave.vi" Type="VI" URL="../dsdll_capture_wave.vi"/>
+		<Item Name="dsdll_capture_wave_abort.vi" Type="VI" URL="../dsdll_capture_wave_abort.vi"/>
+		<Item Name="dsdll_capture_wave_get_status.vi" Type="VI" URL="../dsdll_capture_wave_get_status.vi"/>
 	</Item>
 	<Item Name="output" Type="Folder">
-		<Item Name="dsdll_output_write.vi" Type="VI" URL="../output/dsdll_output_write.vi"/>
-		<Item Name="dsdll_output_play.vi" Type="VI" URL="../output/dsdll_output_play.vi"/>
-		<Item Name="dsdll_output_stop.vi" Type="VI" URL="../output/dsdll_output_stop.vi"/>
-		<Item Name="dsdll_output_set_volume.vi" Type="VI" URL="../output/dsdll_output_set_volume.vi"/>
-		<Item Name="dsdll_output_status.vi" Type="VI" URL="../output/dsdll_output_status.vi"/>
+		<Item Name="dsdll_output_write.vi" Type="VI" URL="../dsdll_output_write.vi"/>
+		<Item Name="dsdll_output_play.vi" Type="VI" URL="../dsdll_output_play.vi"/>
+		<Item Name="dsdll_output_stop.vi" Type="VI" URL="../dsdll_output_stop.vi"/>
+		<Item Name="dsdll_output_set_volume.vi" Type="VI" URL="../dsdll_output_set_volume.vi"/>
+		<Item Name="dsdll_output_status.vi" Type="VI" URL="../dsdll_output_status.vi"/>
 	</Item>
 	<Item Name="control" Type="Folder">
-		<Item Name="dsdll_initialize.vi" Type="VI" URL="../control/dsdll_initialize.vi"/>
-		<Item Name="dsdll_get_dll_version_string.vi" Type="VI" URL="../control/dsdll_get_dll_version_string.vi"/>
-		<Item Name="dsdll_enumerate_devices.vi" Type="VI" URL="../control/dsdll_enumerate_devices.vi"/>
-		<Item Name="dsdll_open.vi" Type="VI" URL="../control/dsdll_open.vi"/>
-		<Item Name="dsdll_close.vi" Type="VI" URL="../control/dsdll_close.vi"/>
-		<Item Name="dsdll_config.vi" Type="VI" URL="../control/dsdll_config.vi"/>
-		<Item Name="dsdll_status.vi" Type="VI" URL="../control/dsdll_status.vi"/>
+		<Item Name="dsdll_initialize.vi" Type="VI" URL="../dsdll_initialize.vi"/>
+		<Item Name="dsdll_get_dll_version_string.vi" Type="VI" URL="../dsdll_get_dll_version_string.vi"/>
+		<Item Name="dsdll_enumerate_devices.vi" Type="VI" URL="../dsdll_enumerate_devices.vi"/>
+		<Item Name="dsdll_open.vi" Type="VI" URL="../dsdll_open.vi"/>
+		<Item Name="dsdll_close.vi" Type="VI" URL="../dsdll_close.vi"/>
+		<Item Name="dsdll_config.vi" Type="VI" URL="../dsdll_config.vi"/>
+		<Item Name="dsdll_status.vi" Type="VI" URL="../dsdll_status.vi"/>
 	</Item>
 	<Item Name="demo" Type="Folder">
 		<Item Name="other" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="gen_coherent_sine.vi" Type="VI" URL="../demos/other/gen_coherent_sine.vi"/>
-			<Item Name="Get App Version.vi" Type="VI" URL="../demos/other/Get App Version.vi"/>
-			<Item Name="control_enabled_state.vi" Type="VI" URL="../demos/other/control_enabled_state.vi"/>
-			<Item Name="randn_approximation.vi" Type="VI" URL="../demos/other/randn_approximation.vi"/>
-			<Item Name="simple_FFT.vi" Type="VI" URL="../demos/other/simple_FFT.vi"/>
+			<Item Name="gen_coherent_sine.vi" Type="VI" URL="../gen_coherent_sine.vi"/>
+			<Item Name="Get App Version.vi" Type="VI" URL="../Get App Version.vi"/>
+			<Item Name="control_enabled_state.vi" Type="VI" URL="../control_enabled_state.vi"/>
+			<Item Name="randn_approximation.vi" Type="VI" URL="../randn_approximation.vi"/>
+			<Item Name="simple_FFT.vi" Type="VI" URL="../simple_FFT.vi"/>
 		</Item>
-		<Item Name="dsdll_basic_demo.vi" Type="VI" URL="../demos/dsdll_basic_demo.vi"/>
-		<Item Name="dsdll_signal_demo.vi" Type="VI" URL="../demos/dsdll_signal_demo.vi"/>
-		<Item Name="dsdll_stability_demo.vi" Type="VI" URL="../demos/dsdll_stability_demo.vi"/>
+		<Item Name="dsdll_basic_demo.vi" Type="VI" URL="../dsdll_basic_demo.vi"/>
+		<Item Name="dsdll_signal_demo.vi" Type="VI" URL="../dsdll_signal_demo.vi"/>
+		<Item Name="dsdll_stability_demo.vi" Type="VI" URL="../dsdll_stability_demo.vi"/>
 	</Item>
 	<Item Name="dsdll.dll" Type="Document" URL="../dsdll.dll"/>
 	<Item Name="dsdll_instance.ctl" Type="VI" URL="../dsdll_instance.ctl"/>
 	<Item Name="dsdll_device_record.ctl" Type="VI" URL="../dsdll_device_record.ctl"/>
 	<Item Name="dsdll_format.ctl" Type="VI" URL="../dsdll_format.ctl"/>
 	<Item Name="dsdll_sample_format.ctl" Type="VI" URL="../dsdll_sample_format.ctl"/>
-	<Item Name="dsdll_vi_tree.vi" Type="VI" URL="../control/dsdll_vi_tree.vi"/>
+	<Item Name="dsdll_vi_tree.vi" Type="VI" URL="../dsdll_vi_tree.vi"/>
 	<Item Name="COPYING" Type="Document" URL="../COPYING"/>
 	<Item Name="COPYING.LESSER" Type="Document" URL="../COPYING.LESSER"/>
 </Library>

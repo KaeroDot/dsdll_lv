@@ -226,6 +226,39 @@ V1.1 - update for new version of 'dsdll.dll'</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{51C08F38-0D99-40AF-8577-6C33B7E111B4}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">dsdll.lvlibp</Property>
 			</Item>
+			<Item Name="DSDLL source distribution" Type="Source Distribution">
+				<Property Name="Bld_buildCacheID" Type="Str">{C2425FDB-A5DF-4B22-B793-2071389B4D59}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DSDLL source distribution</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/20.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/labina/Documents/LabVIEW Data/2020(32-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/dsdll source dist [VersionNumber]</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A67770EF-F4FA-4774-BB43-3450AF5721D0}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/dsdll source dist [VersionNumber]</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/dsdll source dist [VersionNumber]/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{85B2414F-52E5-4CDF-88F6-A231B9024B4E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dsdll.lvlib</Property>
+				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
