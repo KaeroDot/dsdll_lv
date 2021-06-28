@@ -243,6 +243,7 @@ V1.1 - update for new version of 'dsdll.dll'</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/dsdll source dist v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A67770EF-F4FA-4774-BB43-3450AF5721D0}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -250,7 +251,7 @@ V1.1 - update for new version of 'dsdll.dll'</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/dsdll source dist v.[VersionNumber] LabVIEW 20/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{844974CF-42BD-4480-979A-0641A98CE104}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BD935B63-0611-447C-851E-30734867DBCE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dsdll.lvlib</Property>
