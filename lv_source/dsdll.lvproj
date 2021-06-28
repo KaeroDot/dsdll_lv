@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -43,29 +46,28 @@
 				<Property Name="App_INI_GUID" Type="Str">{19F42354-189D-458F-976E-FEEA122435E1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9E32EF59-9529-4EA1-8C2B-281A8C2AAEEC}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DSDLL demo 1</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/demo_1</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/demo_1 v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8EECCC10-585C-4290-A9A0-79838079D8E3}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">dsdll_demo_1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/demo_1/DSDLL demo 1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/demo_1 v.[VersionNumber] LabVIEW 20/DSDLL demo 1.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/demo_1</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/demo_1 v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Destination[2].destName" Type="Str">root</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/demo_1</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/demo_1 v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A846FDE2-4BE7-4D7A-8942-4A8A2C947C2A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{844974CF-42BD-4480-979A-0641A98CE104}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dsdll.lvlib/demo/dsdll_basic_demo.vi</Property>
@@ -88,29 +90,28 @@
 				<Property Name="App_INI_GUID" Type="Str">{A4DE8FDB-135A-4BF6-86C7-4CBE9B2CA6ED}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{F4AFBCB5-5461-401B-BDB7-60194148E276}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DSDLL demo 2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/demo_2</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/demo_2 v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2450B497-EB1C-40EF-9312-A770D957B90D}</Property>
-				<Property Name="Bld_version.build" Type="Int">68</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">dsdll_demo_2.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/demo_2/DSDLL demo 2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/demo_2 v.[VersionNumber] LabVIEW 20/DSDLL demo 2.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/demo_2</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/demo_2 v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Destination[2].destName" Type="Str">root</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/demo_2</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/demo_2 v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A846FDE2-4BE7-4D7A-8942-4A8A2C947C2A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{844974CF-42BD-4480-979A-0641A98CE104}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dsdll.lvlib/demo/dsdll_basic_demo.vi</Property>
@@ -136,29 +137,28 @@
 				<Property Name="App_INI_GUID" Type="Str">{6C456930-A54F-4F72-A5F3-941A2FB04EC6}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1E1F8BF2-E54B-4FC7-B0E7-3CDBF50CF2CA}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DSDLL demo 3</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/demo_3</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/demo_3 v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0D9AC2D1-3D4A-4A2B-AA36-972E0AE9BFCA}</Property>
-				<Property Name="Bld_version.build" Type="Int">66</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">dsdll_demo_3.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/demo_3/DSDLL demo 3.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/demo_3 v.[VersionNumber] LabVIEW 20/DSDLL demo 3.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/demo_3</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/demo_3 v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Destination[2].destName" Type="Str">root</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/demo_3</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/demo_3 v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A846FDE2-4BE7-4D7A-8942-4A8A2C947C2A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{844974CF-42BD-4480-979A-0641A98CE104}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dsdll.lvlib/demo/dsdll_basic_demo.vi</Property>
@@ -190,21 +190,21 @@ http://elektronika.kvalitne.cz/SW/dsdll/dsdll_eng.html</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/dsdll v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{90D1ECC6-AAF5-4122-9E61-E36D84A0349A}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">dsdll.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/dsdll.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/dsdll v.[VersionNumber] LabVIEW 20/NI_AB_PROJECTNAME.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/dsdll v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A846FDE2-4BE7-4D7A-8942-4A8A2C947C2A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{844974CF-42BD-4480-979A-0641A98CE104}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dsdll.lvlib/dsdll.dll</Property>
@@ -240,17 +240,17 @@ V1.1 - update for new version of 'dsdll.dll'</Property>
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/dsdll source dist [VersionNumber]</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/dsdll source dist v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A67770EF-F4FA-4774-BB43-3450AF5721D0}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/dsdll source dist [VersionNumber]</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/dsdll source dist v.[VersionNumber] LabVIEW 20</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/dsdll source dist [VersionNumber]/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/dsdll source dist v.[VersionNumber] LabVIEW 20/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{85B2414F-52E5-4CDF-88F6-A231B9024B4E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{844974CF-42BD-4480-979A-0641A98CE104}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dsdll.lvlib</Property>
